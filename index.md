@@ -1,37 +1,34 @@
-## Welcome to GitHub Pages
+Welcome to JSON2POJO:
+=====================
 
-You can use the [editor on GitHub](https://github.com/edablogs/pojo/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+JSON2POJO is free offline tool to generate POJO (java files) from JSON.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+How to use:
+===========
 
-### Markdown
+-   Download JSON2POJO.jar file from below link.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+-   Install java runtime environment.
 
-```markdown
-Syntax highlighted code block
+-   On windows double click on JSON2POJO.jar and it will start automatically.
 
-# Header 1
-## Header 2
-### Header 3
+-   On Linux or Unix open terminal, navigate to folder where JSON2POJO file
+    exist and type below command
 
-- Bulleted
-- List
+Java –jar JSON2POJO.jar
 
-1. Numbered
-2. List
+-   And hit enter and JSON2POJO will start.
 
-**Bold** and _Italic_ and `Code` text
+Download section:
+=================
 
-[Link](url) and ![Image](src)
-```
+[Download here](https://pojo.learnpainless.com/files/JSON2POJO.jar)
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Framework & used Libraries:
+===========================
 
-### Jekyll Themes
+1.  This software is built in java which means this is supported on all
+    platforms (Windows, Linux, Mac etc.).
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/edablogs/pojo/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+2.  Used [Jsonschema2pojo](http://www.jsonschema2pojo.org/) library to extract
+    POJO from JSON.
